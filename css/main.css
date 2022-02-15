@@ -31,7 +31,7 @@ header, main, footer {
 header, footer, footer a {
     text-align: center;
     background-color:#03144b;
-    color: whitesmoke;
+    color: rgb(238, 227, 227);
 }
 
 header img {
