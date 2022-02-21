@@ -70,18 +70,29 @@ main h1{
     padding-top: 80px;
 }
 
-aside{
-    color:#e4d2d0;
-    background:#161415;
-    width: 25%;
-    float: left;
-    line-height: 25px;
-}
-.aside1 {
+.padre{
 
-    padding: 20px;
-    font-size: 1.2em;
-    text-align: justify;
+    width:90%;
+    max-width: 800px;
+    background: #16ac54;
+}
+
+/* elementos hijos*/
+.hijo
+{
+    width: 100px;
+    height: 100px;
+    background: #f1f37f;
+    margin: 15px;
+    padding: 15px;
+    text-align: center;
+    font-size: 50px;
+    display: flex;
+   /* flex-direction: row;
+    flex-wrap: wrap;*/
+    /*las dos en una sola*/
+    flex-flow: row-reverse wrap;
+
 }
 
 footer{
