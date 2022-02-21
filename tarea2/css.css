@@ -11,14 +11,14 @@
   }
 
 body{
-    font-family: 'Courier New', courier;
-    font-size:  18px;
+   font-family: 'Courier New', courier;
+   font-size:  18px;
    background-image: url(imagenes/nasus.png);
    height: max-content;
-background-attachment: fixed;
-background-position:center;
-background-repeat: no-repeat;
-background-size: cover;
+   background-attachment: fixed;
+   background-position:center;
+   background-repeat: no-repeat;
+   background-size: cover;
 }
 
 header {
@@ -58,17 +58,15 @@ main{
     color: #EEEBD0;
     text-justify: auto;
     text-decoration: violet;
+ 
+}
+main p{
+    padding-top: 0px;
+    padding-left: 35px;
 }
 main h1{
     text-align: center;
-}
-.contenido {
     padding-top: 80px;
-}
-.wrapper {
-    width: 80%;
-    margin: auto;
-    overflow:hidden;
 }
 
 footer{
@@ -78,36 +76,6 @@ footer{
     font-size: 1.3em;
     text-align: center;
     padding: 20px;
-}
-
-@media screen and (max-width:700px)
-{
-    body{
-        font-size:14px;
-        background:#000;
-    }
-
-    main{
-        width: 100%;
-    }
-
-    aside{
-        width: 100%;
-    }
-}
-
-@media screen and (max-width:350px) {
-
-    body{
-        font-size:12px ;
-        background: #EEEBD0;
-        
-    }
-
-
-    aside{
-        display: none;
-       /* overflow: hidden;*/
-    }
     
 }
+
