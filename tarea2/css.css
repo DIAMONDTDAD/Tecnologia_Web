@@ -26,6 +26,7 @@ header {
     width: 100%;
     position: fixed;
     z-index: 100;
+    text-align: center;
 }
 nav {
     float: left; /* Desplazamos el nav hacia la izquierda */
@@ -50,7 +51,7 @@ nav ul li a {
 }
   
 nav ul li:hover {
-    background: #3ead47;
+    background: #02175f;
 }
 
 main{
@@ -70,12 +71,19 @@ main h1{
 }
 
 footer{
-    background: #58423e;
+    background: #464444;
     width: 100%;
     float: left;
     font-size: 1.3em;
     text-align: center;
     padding: 20px;
     
+}
+footer li{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom:10px;
+
+    display:inline-table;
 }
 
