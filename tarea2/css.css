@@ -70,6 +70,20 @@ main h1{
     padding-top: 80px;
 }
 
+aside{
+    color:#e4d2d0;
+    background:#161415;
+    width: 25%;
+    float: left;
+    line-height: 25px;
+}
+.aside1 {
+
+    padding: 20px;
+    font-size: 1.2em;
+    text-align: justify;
+}
+
 footer{
     background: #464444;
     width: 100%;
