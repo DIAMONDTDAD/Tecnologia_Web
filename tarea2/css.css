@@ -1,0 +1,113 @@
+
+/*Eliminamos los margenes y paddings que agrega el navegador por defecto*/
+* {
+    padding: 0;
+    margin: 0;
+  }
+  
+  /*Agregamos margenes inferiores a los parrafos*/
+  p {
+    margin-bottom: 20px;
+  }
+
+body{
+    font-family: 'Courier New', courier;
+    font-size:  18px;
+   background-image: url(imagenes/nasus.png);
+   height: max-content;
+background-attachment: fixed;
+background-position:center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+header {
+    background: rgba(0,0,0,0.9);
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+nav {
+    float: left; /* Desplazamos el nav hacia la izquierda */
+}
+  
+nav ul {
+    list-style: none;
+    overflow: hidden; /* Limpiamos errores de float */
+}
+  
+nav ul li {
+    float: left;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+  
+nav ul li a {
+    display: block; /* Convertimos los elementos a en elementos bloque para manipular el padding */
+    padding: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+  
+nav ul li:hover {
+    background: #3ead47;
+}
+
+main{
+    width: 60%;
+    color: #EEEBD0;
+    text-justify: auto;
+    text-decoration: violet;
+}
+main h1{
+    text-align: center;
+}
+.contenido {
+    padding-top: 80px;
+}
+.wrapper {
+    width: 80%;
+    margin: auto;
+    overflow:hidden;
+}
+
+footer{
+    background: #58423e;
+    width: 100%;
+    float: left;
+    font-size: 1.3em;
+    text-align: center;
+    padding: 20px;
+}
+
+@media screen and (max-width:700px)
+{
+    body{
+        font-size:14px;
+        background:#000;
+    }
+
+    main{
+        width: 100%;
+    }
+
+    aside{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:350px) {
+
+    body{
+        font-size:12px ;
+        background: #EEEBD0;
+        
+    }
+
+
+    aside{
+        display: none;
+       /* overflow: hidden;*/
+    }
+    
+}
