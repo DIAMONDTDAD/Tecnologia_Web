@@ -30,8 +30,15 @@ header {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content:right;
+    justify-content:left;
 }
+header  img{
+ 
+    right: 60px;
+    width: 60px;
+    padding: 10px;
+}
+
 nav {
     float: left; /* Desplazamos el nav hacia la izquierda */
 }
@@ -78,7 +85,7 @@ main h1{
 
     width: 100%;
     max-width: 800px;
-  color: #EEEBD0;
+    color: #EEEBD0;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -98,7 +105,28 @@ main h1{
     margin: 15px;
 
 }
+aside {
+	width: 90%;
+	
+	padding: 20px;
+	display: flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+    justify-content:center;
+}
 
+aside .ad {
+	font-size: 30px;
+	text-align: center;
+	color: #fff;
+	padding: 55px 0px;
+	/*margin: 20px 0;*/
+	
+    
+}
+aside img{
+    padding-left: 15px;
+}
 footer{
     background: #464444;
     width: 100%;
