@@ -153,9 +153,8 @@ footer li{
     display:inline-table;
 }
 @media screen and (max-width: 400px) {
-	aside li {
-        
-		display: none;
+	aside  {
+		
 	}
 }
 
