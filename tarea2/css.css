@@ -39,10 +39,6 @@ header  img{
     padding: 10px;
 }
 
-nav {
-    float: left; /* Desplazamos el nav hacia la izquierda */
-}
-  
 nav ul {
     list-style: none;
     overflow: hidden; /* Limpiamos errores de float */
@@ -79,31 +75,6 @@ main p{
 main h1{
     text-align: center;
     padding-top: 80px;
-}
-
-.padre{
-
-    width: 100%;
-    max-width: 800px;
-    color: #EEEBD0;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-/* elementos hijos*/
-.hijo
-{
-    width: 100px;
-    height: 100px;
-    
-    margin: 15px;
-    padding: 15px;
-    text-align: center;
-    font-size: 50px;
-    margin: 15px;
-
 }
 aside {
 	width: 90%;
@@ -154,7 +125,7 @@ footer li{
 }
 @media screen and (max-width: 400px) {
 	aside  {
-		
+		display: none;
 	}
 }
 
