@@ -1,5 +1,6 @@
-const boton=document.querySelector(".boton")
-const menu=document.querySelector(".nav-menu")
-boton.addEventListener("click",()=>{
-menu.classList.toggle(".menu-visible");
+const navToggle = document.querySelector(".icon");
+const navMenu = document.querySelector(".nav-menu");
+
+navToggle.addEventListener("click", () => {
+  navMenu.classList.toggle("nav-menu_visible");
 });
