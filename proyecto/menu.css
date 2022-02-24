@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+   box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    padding: 90px 20px 0;
+}
+.header{
+    background-color:palevioletred;
+    height: 80px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+
+}
+.nav{
+  display: flex;
+  justify-content: space-between;
+  max-width: 992px;/*damos un ancho maximo*/
+  margin: 0 auto;/*centramos el contenido*/
+}
+.nav-link{
+    color:black;
+    text-decoration: none;
+}
+.logo{
+    font-size: 30px;
+    font-weight: bold;
+    padding: 0 40px;
+    line-height: 80px;
+}
+.nav-menu{
+    display: flex;
+    margin-right: 40px;
+    list-style: none;
+}
+.nav-menu-item{
+font-size: 18px;
+margin: 0 10px;
+line-height: 80px;
+text-transform: uppercase;/* cambia todo a mayuscula*/
+width: max-content;/* muetra el maximo contenido sin que se deforme*/
+
+}
+.menu-link{
+    padding: 8px 12px;
+    border-radius: 3px;
+    
+}
+.menu-link:hover,
+.menu-activo{
+    background-color: blue;
+    transition: 0.5s;
+
+}
+.boton{
+    color: rgb(10, 4, 4);
+    background: none;
+    border: none;
+    font-size: 30px;
+    padding: 0 20px;
+    line-height: 60px;
+    display: none;
+    cursor: pointer;/*manito */
+}
+
+@media (max-width:768px){
+    body{
+        padding-top:70px;
+    }
+    .header{
+        background-color:palevioletred;
+        height: 80px;
+        position: fixed;
+        width: 100%;
+        top: 0;
+        left: 0;
+    
+    }
+    .logo{
+        font-size: 25px;
+        padding: 0 20px;
+        line-height: 60px;
+    }
+    .nav-menu{
+      flex-direction: column;
+      align-items: center;/*centreamos el contenido*/
+      margin-right: 20px;
+      background-color: brown;
+      position: fixed;/*para que el contenido se salga */
+      left: 0;
+      top: 80px;
+      width: 100%;
+      padding: 20px 0;
+
+      overflow-y: auto;/*añade una barra de escrol par poder bajar hacia abajo cuando lo necesite*/
+      height: calc(100% - 60px);/*par que el menu este en toda la pantalla*/
+      left: 100%; 
+    }
+    .nav-menu-item{
+   
+    line-height: 70px;
+    
+    
+    }
+    .menu-link:hover,
+    .menu-activo{
+
+        background:none;
+        color: aquamarine;
+    
+    }
+    .boton{
+
+        display: block;
+    }
+    .menu-visible{
+        left: 0;
+    }
+}

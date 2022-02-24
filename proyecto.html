@@ -4,22 +4,36 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="proyecto/menu.css">
+    <script src="https://kit.fontawesome.com/f73ccb16e4.js" crossorigin="anonymous"></script>
+    <script defer src="proyecto/menu.js"></script>
     <title>Document</title>
 </head>
 <body>
    
-    <header>
-        <img src="imagenes/server.png" alt="imagen prinsipal">
-        <h1>programing</h1>
-      <nav>
-        <ul>
-            <li><a href="index.html">Inicio</a></li>
-            <li><a href="#">servodor de archivos</a></li>
-            <li><a href="#">servicios</a></li>
-            <li><a href="#">nosotros</a></li>
-            <li><a href="#">Contacto</a></li>
-          </ul>
-      </nav>
+    <header class="header">
+        <nav class="nav">
+            <a href="#" class="logo nav-link">logo</a>
+            <button class="boton">
+            <i class="fa-solid fa-bars-staggered"></i>  
+            </button>
+            <ul class="nav-menu menu-visible" >
+                <il class="nav-menu-item" id="jj">
+                   <a href="#" class="menu-link nav-link menu-activo">inicio</a>
+                </il>   
+                <il class="nav-menu-item" id="jj">
+                   <a href="#" class="menu-link nav-link menu-activo">consultas</a>
+                </il>   
+                <il class="nav-menu-item"id="jj">
+                    <a href="#" class="menu-link nav-link menu-activo">ser. archivos</a>
+                </il>    
+                <il class="nav-menu-item"id="jj">
+                    <a href="#" class="menu-link nav-link menu-activo">trabajos</a>
+                </il>
+            </ul>
+        </nav>
+       
+       
     </header>
     <main>
        <section id="1">
@@ -76,30 +90,8 @@
       <a href="https://logical.com.bo/servicios">la informacion de esta pagina fue obtenida de: logical</a>
     </aside>
     <footer>
-      <center><h1>derechos reservados dueño de La pagina DIAMON</h1></center>
+      <h1>derechos reservados dueño de La pagina DIAMON</h1>
     </footer>
 </body>
-<style>
-    body{
-       background: #0D0808;
-       color: beige;
-    }
-    main section{
-       
-        width: 75%;
-        margin-right: 2%;
-    }
-    aside{
-        width: 22%;
-    }
-    footer{
-      
-    background: #464444;
-    width: 100%;
-    float: left;
-    font-size: 1.3em;
-    text-align: center;
-    padding: 20px;
-    }
-</style>
+
 </html>
