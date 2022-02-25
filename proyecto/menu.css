@@ -13,9 +13,12 @@
    background-repeat: no-repeat;
    background-size: cover;
   }
+  .log{
+    height: 80px;
+  }
   
   .header {
-    background-color: #0769e9;
+    background-color: #08E9C4 ;
     height: 80px;
     position: fixed;
     width: 100%;
