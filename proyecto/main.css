@@ -9,6 +9,7 @@ main{
     padding-top: 30px;
     width: 60%;
     text-align: justify;
+    padding-left: 40px;
 }
 aside{
     
@@ -23,15 +24,20 @@ aside{
     display: flex;
 
 }
-footer{
+.pie-pagina{
     width: 100%;
-    background: rgb(68, 95, 248); ;
-        font-size: calc(1em + 1vw);
-        line-height: 1em;
-        padding: 1em;
-        margin: 1em;
-        text-align: center;
+    background-color: #1e8ae9;
 }
+.pie-pagina .primera-parte{
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+ display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-gap: 50px;
+   padding: 45px 0;
+}
+
 @media (max-width: 768px) {
     .contenido{
         display:block; 
