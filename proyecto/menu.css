@@ -22,7 +22,7 @@
   .header {
     background: rgb(68, 95, 248); ;
     height: 80px;
-    position: fixed;
+    position: fixed;/*posision fija del menu*/
     width: 100%;
     top: 0;
     left: 0;
@@ -85,7 +85,7 @@
     display: none;
   }
   
-  /* MOBILE */
+  /* par maviles */
   @media (max-width: 768px) {
     body {
       padding-top: 70px;
