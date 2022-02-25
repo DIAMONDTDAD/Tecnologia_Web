@@ -1,17 +1,31 @@
 .arriba{
     padding-top: 20px;
-    height: 90%;
+    width: 100%;
+    max-width:100%;
+    align-items: center;
 }
 main{
+    padding-top: 30px;
     width: 60%;  
 }
 aside{
-    
+    padding-top: 30px;
     width: 35%;
     padding-left: 150px;
 }
 .contenido{
-    padding-top: 15px;
+    
     display: flex;
    
+}
+@media (max-width: 768px) {
+    .contenido{
+        display:block; 
+    }
+    aside{
+        width: 100%;
+    }
+    mais{
+        width: 100%;
+    }
 }

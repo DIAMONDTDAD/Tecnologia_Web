@@ -65,8 +65,7 @@
     border-radius: 3px;
   }
   
-  .nav-menu-link:hover,
-  .nav-menu-link_active {
+  .nav-menu-link:hover{
     background-color: #616A6D ;
     transition: 0.5s;
   }
@@ -121,8 +120,7 @@
       line-height: 70px;
     }
   
-    .nav-menu-link:hover,
-    .nav-menu-link_active {
+    .nav-menu-link:hover{
       background: none;
       color: #83c5f7;
     }
