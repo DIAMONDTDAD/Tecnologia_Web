@@ -6,7 +6,7 @@
   body {
    font-family: sans-serif;
    padding: 90px 20px 0;
-   background-image: url(imagenes/fondoproyect.jpg);
+  /* background-image: url(imagenes/fondoproyect.jpg);*/
    height: max-content;
    background-attachment: fixed;
    background-position:center;
@@ -18,7 +18,7 @@
   }
   
   .header {
-    background-color: #08E9C4 ;
+    background: rgba(0,0,0,1); ;
     height: 80px;
     position: fixed;
     width: 100%;

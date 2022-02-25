@@ -1,7 +1,15 @@
+.arriba{
+    width: 90%;
+}
 main{
     width: 60%;  
 }
 aside{
     
     width: 25%;
+    padding-left: 60px;
+}
+.contenido{
+    display: flex;
+   
 }
