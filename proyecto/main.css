@@ -24,7 +24,8 @@ aside{
 
 }
 footer{
-       
+    width: 100%;
+    background: rgb(68, 95, 248); ;
         font-size: calc(1em + 1vw);
         line-height: 1em;
         padding: 1em;
