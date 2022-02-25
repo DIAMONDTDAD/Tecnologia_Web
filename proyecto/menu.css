@@ -67,7 +67,7 @@
   
   .nav-menu-link:hover,
   .nav-menu-link_active {
-    background-color: #034574;
+    background-color: #616A6D ;
     transition: 0.5s;
   }
   
@@ -133,5 +133,8 @@
   
     .nav-menu_visible {
       left: 0;
+    }
+    .log{
+     height: 60px;
     }
   }
