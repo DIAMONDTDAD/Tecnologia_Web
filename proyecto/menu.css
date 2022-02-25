@@ -6,19 +6,21 @@
   body {
    font-family: sans-serif;
    padding: 90px 20px 0;
-  /* background-image: url(imagenes/fondoproyect.jpg);*/
+   
+  /*background-image: url(imagenes/fondoproyect.jpg);*/
    height: max-content;
    background-attachment: fixed;
    background-position:center;
    background-repeat: no-repeat;
    background-size: cover;
+   
   }
   .log{
     height: 80px;
   }
   
   .header {
-    background: rgba(0,0,0,1); ;
+    background: rgb(68, 95, 248); ;
     height: 80px;
     position: fixed;
     width: 100%;
