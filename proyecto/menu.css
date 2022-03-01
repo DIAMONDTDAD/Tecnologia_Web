@@ -5,7 +5,7 @@
   
   body {
    font-family: sans-serif;
-   padding: 90px 20px 0;
+   padding: 90px 0px 0;
    
   /*background-image: url(imagenes/fondoproyect.jpg);*/
    height: max-content;
@@ -20,7 +20,7 @@
   }
   
   .header {
-    background: rgb(80, 80, 83); ;
+    background-color: #0d2033;
     height: 80px;
     position: fixed;/*posision fija del menu*/
     width: 100%;
@@ -85,7 +85,7 @@
     display: none;
   }
   
-  /* par maviles */
+  /* tamaños pequeños */
   @media (max-width: 768px) {
     body {
       padding-top: 70px;
