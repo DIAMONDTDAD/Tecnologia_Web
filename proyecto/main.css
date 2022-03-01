@@ -18,6 +18,9 @@ aside{
     padding-left: 150px;
     text-align:justify;
 }
+p{
+    margin: 15px;
+}
 .contenido{
    
     font-family: Georgia, 'Times New Roman', Times, serif;
