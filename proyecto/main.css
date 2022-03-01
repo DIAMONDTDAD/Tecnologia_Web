@@ -24,20 +24,63 @@ aside{
     display: flex;
 
 }
+/*fouter*/
 .pie-pagina{
     width: 100%;
-    background-color: #414447;
+    background-color: #0d2033;
 }
 .pie-pagina .primera-parte{
   width: 100%;
-  max-width: 1024px;
+  max-width: 1200px;
   margin: auto;
   display: grid;
   grid-template-columns: repeat(3,1fr);
   grid-gap: 45px;
   padding: 45px 0;
 }
-
+ .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box figure img{
+    width: 250px;
+}
+.box h2{
+    color: #fff;
+    margin-bottom: 25px;
+    font-size: 20px;
+    
+}.box p{
+    color: #fff;
+    margin-bottom: 10px; 
+}
+ .red-social a{
+    display:inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    margin-right: 10px;
+    background-color: #0d2033;
+    text-align: center;
+}
+.red-social a:hover{
+    -webkit-transform: scale(1.5);
+    color: rgb(13, 71, 156);
+}
+.pie-pagina .grupo-2{
+    background-color: #0a1a2a;
+    padding: 15px 10px;
+    color: #fff;
+    text-align: center;
+}
+.pie-pagina .grupo-2 small{
+    font-size: 20px;
+}
 @media (max-width: 768px) {
     .contenido{
         display:block; 
