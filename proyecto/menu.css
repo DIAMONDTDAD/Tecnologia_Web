@@ -6,13 +6,13 @@
   body {
    font-family: sans-serif;
    padding: 80px 0px 0;
-   
+   /*
   background-image: url(proyecto/imagenes/server);
    height: max-content;
    background-attachment: fixed;
    background-position:center;
    background-repeat: no-repeat;
-   background-size: cover;
+   background-size: cover;*/
    
   }
   .log{
