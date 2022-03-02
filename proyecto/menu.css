@@ -6,7 +6,7 @@
   body {
    font-family: sans-serif;
    padding: 80px 0px 0;
-   background-image: url(imagenes/logito.png);
+   background-image: url(/proyecto/imagenes/fondo.jpeg);
    height: max-content;
    background-attachment: fixed;
    background-position:center;
@@ -19,7 +19,7 @@
   }
   
   .header {
-    background-color: #0d2033;
+    background: rgb(16, 95, 241);
     height: 80px;
     position: fixed;/*posision fija del menu*/
     width: 100%;

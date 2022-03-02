@@ -9,6 +9,7 @@ body {
     line-height: 32px;
     font-family:Ubuntu,sans-serif;
     color:#0b0c0b;
+    background-image: url(/proyecto/imagenes/fondo.jpeg);
 }
 
 h1 {
@@ -26,11 +27,12 @@ header, main, footer {
     margin: 1.25rem auto;
     padding: .5rem;
     max-width: 600px;
+    background-color: #bbb;
 }
 
 header, footer, footer a {
     text-align: center;
-    background-color:#0D0808;
+    background-color:#0b0c0b;
     color: rgb(238, 227, 227);
 }
 
