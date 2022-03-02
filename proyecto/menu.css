@@ -19,7 +19,7 @@
   }
   
   .header {
-    background: rgb(16, 95, 241);
+    background: rgb(0, 10, 24);
     height: 80px;
     position: fixed;/*posision fija del menu*/
     width: 100%;
@@ -68,7 +68,8 @@
   
   .nav-menu-link:hover{
     transform: scale(1.5);
-    background-color: #3e5974;
+    color: rgb(53, 139, 224);
+    background-color: #0f1d2c;
     
   }
   
