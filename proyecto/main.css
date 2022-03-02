@@ -95,13 +95,27 @@ p{
     .contenido{
         display:block; 
     }
+    main{
+        margin-left: 45px;
+        width:90%;
+    }
     aside{
         width: 90%;
         margin-left: 45px;
         
     }
-    main{
-        margin-left: 45px;
-        width:90%;
+ 
+    .pie-pagina .primera-parte{
+        width: 100%;
+        grid-template-columns: repeat(1,1fr);/*definomos la cantodad de colmnas*/
+        grid-gap: 30px;
+        padding: 35px 0;
     }
+    .grupo-2{
+        text-align: center;
+    }
+    .boxx{
+        text-align: center;
+    }
+
 }
