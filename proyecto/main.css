@@ -18,10 +18,7 @@ main{
 .articulo h1{
     text-transform: uppercase;/*cambia las letras a mayuscula*/
 }
-.img{
-    margin: 20px;
-    margin-left: 80px;
-}
+
  aside{
     background: rgba(0,0,0,0.7);
     padding: 8px ;
