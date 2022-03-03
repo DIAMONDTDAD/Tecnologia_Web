@@ -115,7 +115,7 @@
       height: calc(100% - 60px);
       overflow-y: auto;
   
-      left: 100%;
+      left: 100%;/*hacemos desaparecer el menu*/
       transition: left 0.3s;
     }
   
@@ -132,13 +132,12 @@
     .icon {
       display: block;
     }
-  
+    .log{
+      height: 60px;
+     }
     .nav-menu_visible {
       left: 0;
     }
-    .log{
-     height: 60px;
-    }
+   
   }
-
-  /*<cite><autor>*/
+ /*<cite><autor>*/
