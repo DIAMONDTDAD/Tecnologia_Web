@@ -8,17 +8,17 @@
     <link rel="stylesheet" href="css/javacss.css">
     <title>Document</title>
 </head>
-<body>
-    <h1><center>PRACTICA 3: JavaScript</center></h1>
+<body ><center>
+    <h1><center>PRACTICA 3</center></h1>
 
 <div class="flex-container">
   <div class="flex1">  
       <h4 class="ttl">Ejercicio 1</h4>
-  <P> -10°C – 15 °C Frio<BR>
-       16°C – 25 °C Templado<BR>
-       26°C – 40 °C Calor </P>
+  <P> -10°C - 15 °C Frio<BR>
+       16°C - 25 °C Templado<BR>
+       26°C - 40 °C Calor </P>
        <label>Ingrese Los Grados:<br></label><input id="num" type="text"><br>
-       <label>El Clima Esta:<br></label><input id="result" type="text" readonly="">  
+       <label>El clima es:<br></label><input id="result" type="text" readonly="">  
        <input type="button" class="btn" onclick="grados()" value="Calcular">
     <script>
 
@@ -27,13 +27,13 @@
      function grados(){     
          var num =Number(document.getElementById('num').value);
         if (num>=-10 && num<=15){
-            document.getElementById('result').value=("Clima Frio");
+            document.getElementById('result').value=(" Frio");
         }else{
         if (num>=16 && num<=25){
-            document.getElementById('result').value=("Clima Templado")
+            document.getElementById('result').value=(" Templado")
         }else{
         if (num>=26 && num<=40){
-            document.getElementById('result').value=("Clima Calor")
+            document.getElementById('result').value=(" Calor")
         }
             }
             }
@@ -108,5 +108,5 @@
 </div> 
 <script>
 </script>  
-</body>
+</body></center>
 </html>

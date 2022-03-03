@@ -6,7 +6,7 @@
   body {
    font-family: sans-serif;
    padding: 80px 0px 0;
-   background-image: url(/proyecto/imagenes/fondo.jpeg);/*FONDO DE LA PAGINA*/
+   background-image: url(imagenes/fondo.jpeg);/*FONDO DE LA PAGINA*/
    height: max-content;
    background-attachment: fixed;
    background-position:center;
