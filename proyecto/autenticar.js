@@ -21,7 +21,7 @@ function fechaactual(){
    horas= fecha.getUTCHours()-4;
    seconds= fecha.getUTCSeconds();
   
-  imprimirDatos= "Entregado el "+month+"/"+day+"/"+year+" a horas : "+horas+":"+minutes+":"+seconds;
+  imprimirDatos= "Entregado el "+month+"-"+day+"-"+year+" a horas : "+horas+":"+minutes+":"+seconds;
     
   document.getElementById('result').innerHTML=imprimirDatos;
 }   
