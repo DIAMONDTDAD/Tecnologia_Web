@@ -153,7 +153,7 @@ main{
   color: #fff;
   padding-top: 30px;
   width: 60%;
-  text-align: justify;
+ 
   margin-left: 50px;
   margin-bottom: 40px;
   background: rgba(0,0,0,0.7);
@@ -185,6 +185,7 @@ color: aqua;
 transform: scale(1.2);
 }
 p{
+  text-align: justify;
   margin: 15px;
 }
 .contenido{
