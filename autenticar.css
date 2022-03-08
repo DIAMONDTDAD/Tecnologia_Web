@@ -29,9 +29,6 @@ button {
 
 .modal-container {
   display: flex;
-
-  
-
   align-items: center;
   justify-content: center;
   position: fixed;
@@ -59,6 +56,13 @@ button {
   border-radius: 5px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
   text-align: center;
+}
+.modal label{
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  background-color: rgb(241, 247, 247);
+  
 }
 
 .modal h1 {
